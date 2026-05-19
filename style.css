@@ -1,14 +1,41 @@
 body{
+    background-image: url(logo.png);
     background-color: #fff8f3;
+    padding: 0.5%;
+    margin: 0%;
 }
 nav{
-    background-color: #111111;
+    /* background-color: black; */
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    display: flex;
+    gap: 20px;
     padding: 15px;
+    flex-direction: row;
+    text-align: center;
+    padding: 1%;
+    box-shadow: 10px 10px 30px #313636;
+    border-radius: 20px;
 }
 nav a{
-    color: white;
+    color: black;
+    text-transform: uppercase;
     text-decoration: none;
-    margin-right: 20px;
+    margin-right: 120px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
+/* header{
+    background: linear-gradient(135deg, #f6d365, #fda085);
+    padding: 8px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:white;
+} */
+a:active{
+    transform: scale(1.05);
+}
+    a:hover{
+        color: white;
+    transition: 0.2s;
+    }
