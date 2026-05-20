@@ -1,12 +1,13 @@
 body{
-    background-image: url(logo.png);
+    background-image: url(background.png);
+    background-size:cover;
     background-color: #fff8f3;
-    padding: 0.5%;
+    padding: 0%;
     margin: 0%;
 }
 nav{
-    /* background-color: black; */
-    background: linear-gradient(135deg, #f6d365, #fda085);
+    background: rgba(243, 201, 188, 0.4);
+    backdrop-filter: blur(10px);
     display: flex;
     gap: 20px;
     padding: 15px;
@@ -14,24 +15,15 @@ nav{
     text-align: center;
     padding: 1%;
     box-shadow: 10px 10px 30px #313636;
-    border-radius: 20px;
 }
 nav a{
-    color: black;
+    color: #3D2A25;
     text-transform: uppercase;
     text-decoration: none;
     margin-right: 120px;
     font-size: 20px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-/* header{
-    background: linear-gradient(135deg, #f6d365, #fda085);
-    padding: 8px;
-    text-align: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 20px;
-    color:white;
-} */
 a:active{
     transform: scale(1.05);
 }
@@ -39,3 +31,55 @@ a:active{
         color: white;
     transition: 0.2s;
     }
+     #this{
+        font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        filter: drop-shadow(2px 3px 4px rgba(90, 69, 64, 0.25));
+        font-size: 6rem;
+        color: #2A1B18;
+        font-weight: 700;
+        width: 700px;
+        margin-bottom: 20px;
+        position: relative;
+        top: 20px;
+        left: 80px;
+     } 
+     #hero-btns{
+        background-color: transparent;
+        text-align: center;
+        display: flex;
+        gap: 30px;
+        margin-top: 25px;
+        position: relative;
+        top: 20px;
+        left: 160px;
+     }
+     .btn{
+        display: inline-flex;
+        padding: 15px;
+        font-size: 15px;
+        font-weight: 500;
+        padding: 12px 32px;
+        text-decoration: none;
+        border-radius: 50px;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+     .btn1{
+        background-color: #2A1B18;
+        color: white;
+        border: 2px solid #2A1B18;
+     }
+     .btn1:hover{
+        background-color: #412C28;
+        color: white;
+        transform: translateY(-1px);
+     }
+     .btn2{
+        background-color: transparent;
+        color: #2A1B18;
+        border: 2px solid #2A1B18;
+     }
+     .btn2:hover{
+        background-color:rgba(42, 27, 24, 0.05) ;
+        color: #2A1B18;
+        transform: translateY(-1px);
+     }
